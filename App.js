@@ -15,7 +15,7 @@ import BusinessDetail from './screens/BusinessDetail';
 
 const MainNavigator = createStackNavigator();
 
-const App = () => {
+export default App = () => {
   return (
     <NavigationContainer>
       <MainNavigator.Navigator>
@@ -25,5 +25,3 @@ const App = () => {
     </NavigationContainer>
   );
 };
-
-export default App;
